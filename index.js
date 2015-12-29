@@ -232,7 +232,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    'div',
 	                    { className: 'chosen-search' },
 	                    _react2.default.createElement('input', { id: 'j-search', className: 'form-control search-input', type: 'text',
-	                        value: this.state.searchValue, autoComplete: 'off',
+	                        value: this.state.searchValue, autoComplete: 'off', placeholder: this.props.placeholder,
 	                        onChange: this.handleSearchChange.bind(this) })
 	                );
 	            }
